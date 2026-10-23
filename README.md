@@ -3,6 +3,7 @@
 corretto-jdk image used for Concourse runtime
 
 # Building the image
+
 Run the following command in this folder to build a new image:
 
 ```
