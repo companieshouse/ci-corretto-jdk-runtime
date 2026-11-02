@@ -1,6 +1,6 @@
 # ci-corretto-jdk-runtime
 
-corretto-jdk image used for Concourse runtime
+Amazon Corretto 25 runtime image used for Concourse
 
 # Building the image
 Run the following command in this folder to build a new image:
