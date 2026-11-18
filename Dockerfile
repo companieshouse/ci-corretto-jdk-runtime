@@ -6,3 +6,6 @@ RUN dnf update -y && \
     unzip-6.0 \
     zip-3.0 && \
     dnf clean all
+
+# Workaround pending release of amazonlinux:2023.12.20261117 to dockerhub
+RUN dnf update -y java-21-amazon-corretto --releasever 2023.12.20261117
